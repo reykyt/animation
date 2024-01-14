@@ -1,0 +1,26 @@
+.wrapper {
+    text-align: center;
+}
+
+.img-new-year {
+    height: 300px;
+    animation: runleft 3s ease-in-out 0.00000006s backwards infinite alternate;
+}
+
+@keyframes runleft {
+    0% {
+        transform: translateY(-50vw);
+    }
+
+    30% {
+        transform: rotate(180deg) translateY(-30vw);
+    }
+
+    50% {
+        transform: translateY(-30vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
